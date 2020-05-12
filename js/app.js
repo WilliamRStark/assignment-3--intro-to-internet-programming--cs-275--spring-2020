@@ -14,3 +14,15 @@ window.onload =()=>{
     c.addEventListener(`mousedown`, rotateC);
     d.addEventListener(`mousedown`, rotateD);
 
+    function rotateA()
+    {
+        if(aRotated)
+        {
+            a.className = `fa upright`;
+        }
+        else
+        {
+            a.className = `fa rotated`;
+        }
+        aRotated = !aRotated;
+    }
