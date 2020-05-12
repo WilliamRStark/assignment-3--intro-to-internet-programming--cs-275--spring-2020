@@ -50,3 +50,16 @@ window.onload =()=>{
         }
         cRotated = !cRotated;
     }
+    function rotateD()
+    {
+        if(dRotated)
+        {
+            d.className = `fa upright`;
+        }
+        else
+        {
+            d.className = `fa rotated`;
+        }
+        dRotated = !dRotated;
+    }
+};
