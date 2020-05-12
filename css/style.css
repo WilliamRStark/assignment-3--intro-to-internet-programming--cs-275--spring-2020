@@ -9,3 +9,8 @@ td{
   padding: 0.5rem;
 }
 
+.upright{
+  transform: rotate(0deg);
+  transition: transform 0.5s linear;
+}
+
