@@ -26,3 +26,15 @@ window.onload =()=>{
         }
         aRotated = !aRotated;
     }
+    function rotateB()
+    {
+        if(bRotated)
+        {
+            b.className = `fa upright`;
+        }
+        else
+        {
+            b.className = `fa rotated`;
+        }
+        bRotated = !bRotated;
+    }
