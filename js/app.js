@@ -38,3 +38,15 @@ window.onload =()=>{
         }
         bRotated = !bRotated;
     }
+    function rotateC()
+    {
+        if(cRotated)
+        {
+            c.className = `fa upright`;
+        }
+        else
+        {
+            c.className = `fa rotated`;
+        }
+        cRotated = !cRotated;
+    }
