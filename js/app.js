@@ -23,10 +23,13 @@ window.onload =()=>{
                 rotateCheck[index] = false;
             }
         }
+        if(rotateCheck[parseInt(e.target.title)])
         {
+            letters[parseInt(e.target.title)].className = `fa upright`;
         }
         else
         {
+            letters[parseInt(e.target.title)].className = `fa rotated`;
         }
     }
 };
