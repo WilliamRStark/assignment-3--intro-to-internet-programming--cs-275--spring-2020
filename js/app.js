@@ -31,5 +31,7 @@ window.onload =()=>{
         {
             letters[parseInt(e.target.title)].className = `fa rotated`;
         }
+        rotateCheck[parseInt(e.target.title)]
+        = !rotateCheck[parseInt(e.target.title)];
     }
 };
