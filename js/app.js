@@ -9,6 +9,7 @@ window.onload =()=>{
 
     for(let index in letters)
     {
+        letters[index].title = index;
     }
 
     {
