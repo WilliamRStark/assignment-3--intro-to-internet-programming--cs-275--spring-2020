@@ -5,6 +5,7 @@ window.onload =()=>{
         c = tableData[2],
         d = tableData[3],
         letters = [a, b, c, d],
+        rotateCheck = [false, false, false, false];
 
     a.addEventListener(`mousedown`, rotateA);
     b.addEventListener(`mousedown`, rotateB);
