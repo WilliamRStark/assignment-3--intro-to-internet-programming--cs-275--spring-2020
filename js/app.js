@@ -7,8 +7,10 @@ window.onload =()=>{
         letters = [a, b, c, d],
         rotateCheck = [false, false, false, false];
 
+    for(let index in letters)
     {
     }
+
     {
         {
         }
