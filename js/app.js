@@ -7,18 +7,7 @@ window.onload =()=>{
         letters = [a, b, c, d],
         rotateCheck = [false, false, false, false];
 
-    function rotateA()
     {
-        if(aRotated)
-        {
-            a.className = `fa upright`;
-        }
-        else
-        {
-            a.className = `fa rotated`;
-        }
-        aRotated = !aRotated;
-    }
     function rotateB()
     {
         if(bRotated)
