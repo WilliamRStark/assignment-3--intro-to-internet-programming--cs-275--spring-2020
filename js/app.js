@@ -10,6 +10,7 @@ window.onload =()=>{
     for(let index in letters)
     {
         letters[index].title = index;
+        letters[index].addEventListener(`mousedown`, rotate, false);
     }
 
     {
