@@ -13,6 +13,7 @@ window.onload =()=>{
         letters[index].addEventListener(`mousedown`, rotate, false);
     }
 
+    function rotate(e)
     {
         {
         }
