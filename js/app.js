@@ -7,11 +7,6 @@ window.onload =()=>{
         letters = [a, b, c, d],
         rotateCheck = [false, false, false, false];
 
-    a.addEventListener(`mousedown`, rotateA);
-    b.addEventListener(`mousedown`, rotateB);
-    c.addEventListener(`mousedown`, rotateC);
-    d.addEventListener(`mousedown`, rotateD);
-
     function rotateA()
     {
         if(aRotated)
