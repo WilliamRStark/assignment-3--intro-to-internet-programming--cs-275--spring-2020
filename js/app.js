@@ -15,7 +15,13 @@ window.onload =()=>{
 
     function rotate(e)
     {
+        for(let index in letters)
         {
+            letters[index].className = `fa upright`;
+            if(index != parseInt(e.target.title))
+            {
+                rotateCheck[index] = false;
+            }
         }
         {
         }
