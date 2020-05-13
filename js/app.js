@@ -8,17 +8,6 @@ window.onload =()=>{
         rotateCheck = [false, false, false, false];
 
     {
-    function rotateB()
-    {
-        if(bRotated)
-        {
-            b.className = `fa upright`;
-        }
-        else
-        {
-            b.className = `fa rotated`;
-        }
-        bRotated = !bRotated;
     }
     function rotateC()
     {
